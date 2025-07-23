@@ -32,6 +32,10 @@
     background-color: blanchedalmond;
 }
 
+/* body background color */
+.body{
+    background-color: rgba(255, 255, 255, 0.162);
+}
 /* nav style */
 nav{
     display: flex;
@@ -90,6 +94,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     /* margin: 115px ; */
+}
+.action-details{
+     align-items: center;
+     margin-top: 100px;
 }
 .action-details-h5{
     font-size:  24px;
