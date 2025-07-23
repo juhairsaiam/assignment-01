@@ -17,6 +17,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* common class for width */
+.common-class{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* hover effect */
 .button:hover{
@@ -62,7 +67,7 @@ nav{
     margin-top: 112px;
 }
 .heading-text{
-    margin: 112px 267px 20px 267px;
+    /* margin: 112px 267px 20px 267px; */
 }
 
 /* button section */
@@ -84,7 +89,7 @@ nav{
     display: flex;  
     align-items: center;
     justify-content:space-around ;
-    margin: 115px ;
+    /* margin: 115px ; */
 }
 .action-details-h5{
     font-size:  24px;
@@ -104,7 +109,7 @@ nav{
       background-color: #4d47ff21;
      height: 306px;
     width: 1140px;
-    margin: 116px 150px 137px 140px; 
+    /* margin: 116px 150px 137px 140px;  */
     border-radius: 30px;
 }
 .users{
@@ -176,16 +181,18 @@ nav{
 .form{
     background-color: rgba(171, 17, 17, 0);
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    padding: 120px;
     background-color: rgba(255, 255, 255, 0.126);
 
+}
+.input-data{   
+    width: 100%;
 }
 .form-data-tital{
     font-weight: bold;
     font-size: 97px;
-    margin: 90px 150px 14px 150px;
+    /* margin: 90px 150px 14px 150px; */
 }
 footer input[type="text"], input[type="email"],input[type="text-area"] {
 
