@@ -1,0 +1,234 @@
+/* font styles */
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-logo {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+.logo{
+    font-weight:900;
+    color: #4E47FF;
+    font-size: 34px;
+}
+.sign-up{
+    background-color:#4E47FF ;
+    color: white;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* banner section */
+.banner-section{
+    background-image: url('../Assets/Hero-bg.png');
+}
+.website-heading{
+    text-align: center;
+    font-size:64px ;
+    font-weight: bold;
+    margin-top: 112px;
+}
+.heading-text{
+    margin: 112px 267px 20px 267px;
+}
+
+/* button section */
+.focus-button{
+   
+   padding: 12px 36px;
+   font-size: 16px;
+   font-weight: bold;
+   color: white;
+   border-radius: 10px;
+   background-color: #4E47FF;
+   margin-bottom: 200px;
+   border: none;
+}
+
+/* action section */
+.action{
+    gap: 220px;
+    display: flex;  
+    align-items: center;
+    justify-content:space-around ;
+    margin: 115px ;
+}
+.action-details-h5{
+    font-size:  24px;
+    color:#252432 ;
+}
+ img{
+  border-radius: 50px;
+  
+}
+.action-details-h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* this section is for the users data section */
+.user{
+      background-color: #4d47ff21;
+     height: 306px;
+    width: 1140px;
+    margin: 116px 150px 137px 140px; 
+    border-radius: 30px;
+}
+.users{
+    display: flex;
+    gap: 167px;
+    padding: 50px 142px;
+}
+.users-tital{
+    font-size: 38px;
+    font-weight: bold;
+}
+.data{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+    
+}
+.data-name{
+    font-size: 20px;
+
+}
+.users-tital{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+  padding-top: 40px;
+}
+ /* THIS ABOUT MAIN SECTION  */
+     
+ /* this is review section */
+     .review-section{
+        justify-items: center;
+        display: flex;
+        gap: 15px;
+        justify-items: center;
+        margin: 50px 150px 100px 150px;
+       
+
+     }
+     .review-section-tital{
+        font-size: 42px;
+        font-weight: bold;
+        text-align: center;
+     }
+     .review{
+        box-shadow: 2px 2px 2px 2px rgb(231, 223, 223);
+        padding: 24px;
+        border-radius: 14px;
+        background-color:rgba(255, 255, 255, 0.571);
+        
+     }
+     .stars{
+        height: 20px;
+        width: 20px;
+     }
+     .id{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+     }
+     .profile{
+        width: 40px;
+        height: 40px;
+     }
+
+
+
+/* This section is about the footer input data */
+.form{
+    background-color: rgba(171, 17, 17, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    background-color: rgba(255, 255, 255, 0.126);
+
+}
+.form-data-tital{
+    font-weight: bold;
+    font-size: 97px;
+    margin: 90px 150px 14px 150px;
+}
+footer input[type="text"], input[type="email"],input[type="text-area"] {
+
+    width: 100%;
+     margin-bottom: 10px;
+     border-radius: 10px;
+     padding: 32px;
+     font-size: 20px;
+     border:1px solid rgba(0, 0, 0, 0.196);
+     box-shadow: 2px 2px 2px 2px rgb(237, 233, 233) ;
+     box-sizing: border-box;
+     
+}
+.text-area{
+    border: 1px solid rgba(0, 0, 0, 0.142);
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(240, 235, 235);
+}
+.form-submit-button{
+    width: 100%;
+    padding:19px 100px;
+    border-radius: 10px;
+    margin-top: 19px;
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+}
+
+/* This is about section  */
+
+.about{
+    justify-items: center;
+     padding: 100px 450px;
+}
+.about-name{
+    text-align: center;
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 900;
+    
+}
+.about-description{
+    color: #8987A1;
+}
+.links {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+.links a{
+    text-decoration: none;
+    color: #8987A1;
+}
