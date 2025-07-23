@@ -18,6 +18,15 @@
     "wdth" 100;
 }
 
+/* hover effect */
+.button:hover{
+    background-color: rgb(62, 199, 66);
+}
+.click-link:hover{
+    color: #4E47FF;
+    background-color: blanchedalmond;
+}
+
 /* nav style */
 nav{
     display: flex;
@@ -39,6 +48,7 @@ nav{
     border: none;
     font-size: 16px;
     font-weight: bold;
+
 }
 
 /* banner section */
